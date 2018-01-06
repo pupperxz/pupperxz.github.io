@@ -2,10 +2,10 @@ body {
   background-color: #1a5ef2;
   margin-top: 30px;
   }
-.head {
+#head {
   text-align: center;
 }
-.navbar {
+#navbar {
   overflow: hidden;
     background-color: #333;
     position: fixed; /* Navbar fixed position */
@@ -13,7 +13,7 @@ body {
     width: 100%; /* Full-page width */
 }
 
-.navbar a {
+#navbar a {
    float: left;
     display: block;
     color: #f2f2f2;
@@ -21,7 +21,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
-.navbar a:hover {
+#navbar a:hover {
     background: #ddd;
     color: black;
 }
